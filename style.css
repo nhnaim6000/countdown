@@ -1,0 +1,27 @@
+div#show {
+    text-align: center;
+    /* width: 300px; */
+    margin-top: 48px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+@media(max-width:600px){
+
+    form#count-form {
+       
+        flex-direction: column;
+        width: 80vw !important;
+    }
+
+    input {
+        margin-top: 10px;
+    }
+
+    div#show {
+       
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
